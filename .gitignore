@@ -1,3 +1,11 @@
+
+*.csv
+
+!*Production/*
+!*Production/*/bom.csv
+!*Production/*/designators.csv
+!*Production/*/positions.csv
+
 *.config.ini
 
 # For PCBs designed using KiCad: https://www.kicad.org/
@@ -28,7 +36,6 @@ fp-info-cache
 
 # Exported BOM files
 *.xml
-*.csv
 
 # General
 .DS_Store

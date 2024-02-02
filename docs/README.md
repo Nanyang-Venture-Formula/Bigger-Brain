@@ -1,6 +1,4 @@
-# Overview
+# docs
 
-![../Renders/bigger-brain-F.png](../Renders/bigger-brain-F.png)
-
-![../Renders/bigger-brain-B.png](../Renders/bigger-brain-B.png)
+This is a template for docs deploying to gh-pages
 

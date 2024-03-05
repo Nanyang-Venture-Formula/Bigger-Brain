@@ -6,8 +6,8 @@
 	(paper "A3")
 	(title_block
 		(title "Bigger Brain")
-		(date "2024-02-21")
-		(rev "1.1")
+		(date "2024-03-05")
+		(rev "2")
 		(company "Scott CJX")
 	)
 	(lib_symbols
@@ -6318,10 +6318,6 @@
 		(uuid "03983d4c-80bf-45f7-8cc6-ea685809d747")
 	)
 	(no_connect
-		(at 171.45 111.76)
-		(uuid "25968d96-4d81-44a7-a8c8-866d1be36645")
-	)
-	(no_connect
 		(at 171.45 152.4)
 		(uuid "2ab1e39f-9ced-4f6e-88e6-d3b442d667d5")
 	)
@@ -6366,14 +6362,6 @@
 		(uuid "7a23f0af-6c6a-4710-980d-e3b30e5d5d6f")
 	)
 	(no_connect
-		(at 171.45 109.22)
-		(uuid "9810fb72-b854-46ef-acd9-04188f205420")
-	)
-	(no_connect
-		(at 171.45 78.74)
-		(uuid "9dd60cb3-2cf2-4bdf-8ec0-53018169e7e1")
-	)
-	(no_connect
 		(at 26.67 78.74)
 		(uuid "a70c462c-f456-4bd7-91c6-d3d871f50dd2")
 	)
@@ -6382,20 +6370,12 @@
 		(uuid "b66cf8fe-2271-4864-b918-117160dc04a8")
 	)
 	(no_connect
-		(at 102.87 119.38)
-		(uuid "b6da5281-3bf2-4a21-b628-d901333e79d3")
-	)
-	(no_connect
 		(at 102.87 154.94)
 		(uuid "b70249eb-deaa-49f0-8685-3363c4980c05")
 	)
 	(no_connect
 		(at 102.87 124.46)
 		(uuid "b83645b7-dbf3-4b99-9e61-70a006b73d10")
-	)
-	(no_connect
-		(at 102.87 116.84)
-		(uuid "c645870f-4ec8-4a38-b2b7-3f45b16c46b5")
 	)
 	(no_connect
 		(at 171.45 162.56)
@@ -7955,6 +7935,16 @@
 	)
 	(wire
 		(pts
+			(xy 171.45 111.76) (xy 191.77 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c542b68c-3f44-47d6-ab5a-2e307e8108c3")
+	)
+	(wire
+		(pts
 			(xy 224.79 127) (xy 226.06 127)
 		)
 		(stroke
@@ -8365,6 +8355,16 @@
 	)
 	(wire
 		(pts
+			(xy 171.45 109.22) (xy 191.77 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f77d337e-87f8-4b2a-a323-a63909eef074")
+	)
+	(wire
+		(pts
 			(xy 26.67 78.74) (xy 30.48 78.74)
 		)
 		(stroke
@@ -8533,28 +8533,6 @@
 		)
 		(uuid "6fb95f2f-0f9b-4f19-ba68-67a2f289d3df")
 	)
-	(text "UNUSED"
-		(exclude_from_sim no)
-		(at 172.72 113.03 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "8e649b76-8c85-4758-b783-6259d7c50df0")
-	)
-	(text "UNUSED"
-		(exclude_from_sim no)
-		(at 101.6 120.65 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "981bfaad-b9fa-40a6-8ff2-49906d53bc20")
-	)
 	(text "BLOCKED"
 		(exclude_from_sim no)
 		(at 101.6 156.21 0)
@@ -8633,39 +8611,6 @@
 			(justify left bottom)
 		)
 		(uuid "d4771b9c-6d18-487a-9044-fbf90332b633")
-	)
-	(text "UNUSED"
-		(exclude_from_sim no)
-		(at 101.6 118.11 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "e571cf0c-8474-4bf9-b13b-0853ba83bf41")
-	)
-	(text "UNUSED"
-		(exclude_from_sim no)
-		(at 172.72 110.49 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "e6141f49-0ae0-4754-bf1c-2987a11f8add")
-	)
-	(text "BLOCKED"
-		(exclude_from_sim no)
-		(at 172.72 80.01 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "ea86db52-65b4-471b-85ed-976894aa1201")
 	)
 	(text "BLOCKED"
 		(exclude_from_sim no)
@@ -8853,6 +8798,17 @@
 			(justify right bottom)
 		)
 		(uuid "24b61807-a453-479f-98ec-29283e019a02")
+	)
+	(label "I2C5_SDA"
+		(at 203.2 127 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "297f6da1-fbae-4e71-8c6b-171cec4f777b")
 	)
 	(label "UART2_RX"
 		(at 354.33 125.73 180)
@@ -9217,17 +9173,6 @@
 		)
 		(uuid "9840ab37-3a93-423e-bb2f-80c144a787d6")
 	)
-	(label "I2C2_SCL"
-		(at 203.2 127 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "9bc348be-88a5-45ab-9ef3-6162a9aab094")
-	)
 	(label "SD1_DAT0"
 		(at 191.77 165.1 180)
 		(fields_autoplaced yes)
@@ -9238,6 +9183,17 @@
 			(justify right bottom)
 		)
 		(uuid "9e1bd9e0-a7e8-4144-82c1-515e45aa9cf9")
+	)
+	(label "I2C5_SCL"
+		(at 203.2 129.54 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9e6e5dc4-c014-43cf-9a09-f44c3d0c581f")
 	)
 	(label "SPI2_IRQ"
 		(at 354.33 114.3 180)
@@ -9326,17 +9282,6 @@
 			(justify right bottom)
 		)
 		(uuid "b471ee4b-b15a-4643-99f5-f7cef62b3c00")
-	)
-	(label "I2C2_SDA"
-		(at 203.2 129.54 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "b5d2bb7c-3474-4886-9225-84a5da0133ea")
 	)
 	(label "CAN3_RX"
 		(at 82.55 144.78 0)
@@ -9668,28 +9613,6 @@
 		)
 		(uuid "fc477895-dbbd-43ef-86a6-d41d34ead711")
 	)
-	(global_label "PE00"
-		(shape input)
-		(at 309.88 110.49 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "00fc9536-994c-4328-9452-5dedef360bec")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 302.0568 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "PF11"
 		(shape input)
 		(at 82.55 157.48 180)
@@ -9774,6 +9697,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "PG13"
+		(shape input)
+		(at 102.87 119.38 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0ae0c855-f26f-48b9-973b-9f1920bb76cd")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 94.9258 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -9888,6 +9833,28 @@
 			)
 		)
 	)
+	(global_label "USR_LED"
+		(shape input)
+		(at 171.45 78.74 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "24b7a311-c597-4645-9087-c072efb5bd73")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 182.6599 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "PD13"
 		(shape input)
 		(at 191.77 220.98 0)
@@ -9989,6 +9956,28 @@
 		(uuid "47adeaa7-4ec7-4e09-b901-96c98c21b44a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 74.6058 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "PG12"
+		(shape input)
+		(at 102.87 116.84 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "53eddb7f-7da6-4668-bc0d-d3b462ab93e2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 94.9258 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10548,6 +10537,28 @@
 			)
 		)
 	)
+	(global_label "PB03"
+		(shape input)
+		(at 191.77 109.22 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "aa73c700-ddd2-4783-8b74-a7ad00d4827e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 199.7142 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "PB02"
 		(shape input)
 		(at 191.77 106.68 0)
@@ -10698,6 +10709,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "PB04"
+		(shape input)
+		(at 191.77 111.76 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c58bd688-e0f4-4780-b3f7-f7a8428b79a2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 199.7142 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -10940,28 +10973,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "PE01"
-		(shape input)
-		(at 309.88 107.95 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "f66436fc-cb16-4f2b-b16c-3f8d75c9f0bb")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 302.0568 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -13316,16 +13327,6 @@
 			)
 			(uuid "fe0ca091-105b-48cb-a0d1-94fba97a5deb")
 		)
-		(pin "D1" input
-			(at 309.88 110.49 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "8b140bf5-4ab3-48a3-9412-470eed0edf08")
-		)
 		(pin "SPI1_IRQ" input
 			(at 334.01 99.06 0)
 			(effects
@@ -13375,36 +13376,6 @@
 				(justify left)
 			)
 			(uuid "40664a56-b422-4e02-80d9-41e2cc818b4a")
-		)
-		(pin "D0" input
-			(at 309.88 107.95 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "5c834845-ddb4-40d9-adb6-24fe64020b75")
-		)
-		(pin "D3" input
-			(at 309.88 115.57 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "ceb0d2e5-d0e7-4569-a148-9382036272b1")
-		)
-		(pin "D4" input
-			(at 309.88 118.11 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "0565a31e-8216-434b-b364-7ab97d7c5d15")
 		)
 		(pin "SPI1_SCLK" input
 			(at 334.01 88.9 0)
@@ -13466,16 +13437,6 @@
 			)
 			(uuid "8334c0d9-be8c-4c4f-aacf-14470e728d5f")
 		)
-		(pin "D5" input
-			(at 309.88 120.65 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "59a66ae1-9cab-4238-9e3f-33d20661606b")
-		)
 		(pin "SPI2_MOSI" input
 			(at 334.01 106.68 0)
 			(effects
@@ -13525,36 +13486,6 @@
 				(justify right)
 			)
 			(uuid "afa2eea3-6891-4f49-9e5f-e450b63fcc21")
-		)
-		(pin "A3" input
-			(at 309.88 132.08 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "71cc893f-df01-4485-853a-e26343ff9704")
-		)
-		(pin "A2" input
-			(at 309.88 129.54 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "505eb72b-8c3f-4978-9440-3fb99f147a2d")
-		)
-		(pin "D2" input
-			(at 309.88 113.03 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "bd2e7529-5097-426d-a9c4-19eeef5e46cd")
 		)
 		(pin "UART3_RX" input
 			(at 334.01 132.08 0)

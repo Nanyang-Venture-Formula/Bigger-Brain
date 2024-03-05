@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "Bigger Brain")
-		(date "2024-02-21")
-		(rev "1.1")
+		(date "2024-03-05")
+		(rev "2")
 		(company "Scott CJX")
 	)
 	(lib_symbols

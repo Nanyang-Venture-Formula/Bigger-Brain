@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "Bigger Brain")
-		(date "2024-02-21")
-		(rev "1.1")
+		(date "2024-03-05")
+		(rev "2")
 		(company "Scott CJX")
 	)
 	(lib_symbols
@@ -4180,6 +4180,16 @@
 	)
 	(wire
 		(pts
+			(xy 31.75 186.69) (xy 39.37 186.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58bf5711-7db5-4409-a8f8-d9d92060761a")
+	)
+	(wire
+		(pts
 			(xy 124.46 177.8) (xy 134.62 177.8)
 		)
 		(stroke
@@ -5538,6 +5548,28 @@
 		)
 		(uuid "e48dbcf7-e9d4-4510-b325-1b1033ab2b03")
 	)
+	(global_label "MCU-3.3V"
+		(shape input)
+		(at 39.37 186.69 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0643cdf3-4ee9-4cfb-904f-6dcba5fee2e0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 52.0919 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "V1"
 		(shape input)
 		(at 59.69 177.8 180)
@@ -5665,6 +5697,28 @@
 		(uuid "b762294c-7272-411f-8b9f-4642cf2c84d4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 19.0281 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "PP-3.3V"
+		(shape input)
+		(at 31.75 186.69 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c578982c-d3fd-48c5-a82f-8b1e7dcbc892")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 20.54 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7387,7 +7441,7 @@
 				)
 			)
 		)
-		(property "Footprint" "NVF-Kicad:FUSE-MCCQ-122"
+		(property "Footprint" "NVF-Kicad:FUSE-Littelfuse_Nano2_154x"
 			(at 68.58 179.578 90)
 			(effects
 				(font
@@ -8925,7 +8979,7 @@
 				)
 			)
 		)
-		(property "Footprint" "NVF-Kicad:FUSE-MCCQ-122"
+		(property "Footprint" "NVF-Kicad:FUSE-Littelfuse_Nano2_154x"
 			(at 68.58 184.658 90)
 			(effects
 				(font

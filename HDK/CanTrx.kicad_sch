@@ -2300,7 +2300,7 @@
 				(hide yes)
 			)
 		)
-		(property "Element14" ""
+		(property "Element14" "-"
 			(at 17.78 44.45 0)
 			(effects
 				(font
@@ -2472,7 +2472,7 @@
 				(hide yes)
 			)
 		)
-		(property "Element14" ""
+		(property "Element14" "-"
 			(at 78.74 36.83 0)
 			(effects
 				(font
@@ -3029,7 +3029,7 @@
 				(hide yes)
 			)
 		)
-		(property "Element14" ""
+		(property "Element14" "-"
 			(at 29.21 44.45 0)
 			(effects
 				(font

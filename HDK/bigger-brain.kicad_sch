@@ -9031,7 +9031,7 @@
 		(uuid "67e821cb-f998-4c6b-a88a-e4a170903138")
 	)
 	(label "SPI1_MISO"
-		(at 354.33 91.44 180)
+		(at 354.33 93.98 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9306,7 +9306,7 @@
 		(uuid "ba3457f9-ac4d-46cb-bc33-a9158d843eca")
 	)
 	(label "SPI2_MOSI"
-		(at 354.33 109.22 180)
+		(at 354.33 106.68 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9460,7 +9460,7 @@
 		(uuid "d80e50cd-b890-4b39-88bf-644289a20d66")
 	)
 	(label "SPI1_MOSI"
-		(at 354.33 93.98 180)
+		(at 354.33 91.44 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9482,7 +9482,7 @@
 		(uuid "dcbe4754-2421-4aac-9155-b71b97111345")
 	)
 	(label "SPI2_MISO"
-		(at 354.33 106.68 180)
+		(at 354.33 109.22 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11258,7 +11258,7 @@
 				(hide yes)
 			)
 		)
-		(property "Element14" ""
+		(property "Element14" "-"
 			(at 41.91 115.57 0)
 			(effects
 				(font
@@ -11343,7 +11343,7 @@
 				(hide yes)
 			)
 		)
-		(property "Element14" ""
+		(property "Element14" "-"
 			(at 38.1 78.74 0)
 			(effects
 				(font
@@ -11434,7 +11434,7 @@
 				(hide yes)
 			)
 		)
-		(property "Element14" ""
+		(property "Element14" "-"
 			(at 220.98 129.54 0)
 			(effects
 				(font
@@ -11586,7 +11586,7 @@
 				(hide yes)
 			)
 		)
-		(property "Element14" ""
+		(property "Element14" "-"
 			(at 220.98 127 0)
 			(effects
 				(font
@@ -11736,7 +11736,7 @@
 				(hide yes)
 			)
 		)
-		(property "Element14" ""
+		(property "Element14" "-"
 			(at 38.1 111.76 0)
 			(effects
 				(font
@@ -12023,7 +12023,7 @@
 				(hide yes)
 			)
 		)
-		(property "Element14" ""
+		(property "Element14" "-"
 			(at 34.29 115.57 0)
 			(effects
 				(font
@@ -12243,7 +12243,7 @@
 				(hide yes)
 			)
 		)
-		(property "Element14" ""
+		(property "Element14" "-"
 			(at 135.89 144.78 0)
 			(effects
 				(font
@@ -12889,7 +12889,7 @@
 				(hide yes)
 			)
 		)
-		(property "Element14" ""
+		(property "Element14" "-"
 			(at 26.67 67.31 0)
 			(effects
 				(font

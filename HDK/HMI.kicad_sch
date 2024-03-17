@@ -10905,7 +10905,7 @@
 				(hide yes)
 			)
 		)
-		(property "Element14" ""
+		(property "Element14" "-"
 			(at 54.61 160.02 0)
 			(effects
 				(font
@@ -11258,7 +11258,7 @@
 				(hide yes)
 			)
 		)
-		(property "Element14" ""
+		(property "Element14" "-"
 			(at 60.96 33.02 0)
 			(effects
 				(font
@@ -11739,6 +11739,24 @@
 				(hide yes)
 			)
 		)
+		(property "Element14" "1830787"
+			(at 309.88 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "-"
+			(at 309.88 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "cae00c35-47ff-4165-89d7-929374ac3580")
 		)
@@ -12104,7 +12122,7 @@
 				(hide yes)
 			)
 		)
-		(property "Element14" ""
+		(property "Element14" "-"
 			(at 152.4 64.77 0)
 			(effects
 				(font
@@ -12385,6 +12403,24 @@
 				(hide yes)
 			)
 		)
+		(property "Element14" "9492445"
+			(at 133.35 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "-"
+			(at 133.35 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "d280a66a-8aa9-405d-939f-a9e37504813d")
 		)
@@ -12454,6 +12490,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 214.63 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Element14" "9492445"
+			(at 214.63 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "-"
 			(at 214.63 107.95 0)
 			(effects
 				(font
@@ -12673,6 +12727,24 @@
 				(hide yes)
 			)
 		)
+		(property "Element14" "9492445"
+			(at 267.97 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "-"
+			(at 267.97 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "4"
 			(uuid "1370b625-b189-496a-b406-4b32b325c68e")
 		)
@@ -12818,6 +12890,24 @@
 				(hide yes)
 			)
 		)
+		(property "Element14" "-"
+			(at 137.16 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "-"
+			(at 137.16 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0c47d7bb-4b77-42b1-ba33-89902c14e4a9")
 		)
@@ -12879,6 +12969,24 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 137.16 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Element14" "-"
+			(at 137.16 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "-"
 			(at 137.16 101.6 0)
 			(effects
 				(font
@@ -12965,7 +13073,7 @@
 				(hide yes)
 			)
 		)
-		(property "Element14" ""
+		(property "Element14" "-"
 			(at 77.47 151.13 0)
 			(effects
 				(font
@@ -13118,7 +13226,7 @@
 				(hide yes)
 			)
 		)
-		(property "Element14" ""
+		(property "Element14" "-"
 			(at 152.4 69.85 0)
 			(effects
 				(font
@@ -13405,6 +13513,24 @@
 				(hide yes)
 			)
 		)
+		(property "Element14" "-"
+			(at 104.14 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "-"
+			(at 104.14 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c3e60775-5bad-4053-ae9f-1da80ab918dd")
 		)
@@ -13484,7 +13610,7 @@
 				(hide yes)
 			)
 		)
-		(property "Element14" ""
+		(property "Element14" "-"
 			(at 349.25 33.02 0)
 			(effects
 				(font
@@ -13696,6 +13822,24 @@
 				(hide yes)
 			)
 		)
+		(property "Element14" "9492445"
+			(at 241.3 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "-"
+			(at 241.3 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "8eea31a1-0b7c-4bd9-ba52-86d4a222a9f5")
 		)
@@ -13851,7 +13995,7 @@
 				(hide yes)
 			)
 		)
-		(property "Element14" ""
+		(property "Element14" "-"
 			(at 349.25 80.01 0)
 			(effects
 				(font
@@ -13920,6 +14064,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 187.96 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Element14" "9492445"
+			(at 187.96 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "-"
 			(at 187.96 130.81 0)
 			(effects
 				(font
@@ -14147,7 +14309,7 @@
 				(hide yes)
 			)
 		)
-		(property "Element14" ""
+		(property "Element14" "-"
 			(at 45.72 114.3 0)
 			(effects
 				(font
@@ -14213,6 +14375,24 @@
 		)
 		(property "Description" ""
 			(at 30.48 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Element14" "1830787"
+			(at 41.91 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "-"
+			(at 41.91 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14321,7 +14501,7 @@
 				(hide yes)
 			)
 		)
-		(property "Element14" ""
+		(property "Element14" "-"
 			(at 210.185 47.625 0)
 			(effects
 				(font
@@ -14656,7 +14836,7 @@
 				(hide yes)
 			)
 		)
-		(property "Element14" ""
+		(property "Element14" "-"
 			(at 349.25 49.53 0)
 			(effects
 				(font
@@ -14743,7 +14923,7 @@
 				(hide yes)
 			)
 		)
-		(property "Element14" ""
+		(property "Element14" "-"
 			(at 77.47 160.02 0)
 			(effects
 				(font
@@ -14830,7 +15010,7 @@
 				(hide yes)
 			)
 		)
-		(property "Element14" ""
+		(property "Element14" "-"
 			(at 66.04 151.13 0)
 			(effects
 				(font
@@ -14976,6 +15156,24 @@
 				(hide yes)
 			)
 		)
+		(property "Element14" "-"
+			(at 104.14 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "-"
+			(at 104.14 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "67bf6ffc-7088-4f94-8b9a-2fa5fd637cf3")
 		)
@@ -15105,6 +15303,24 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 120.65 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Element14" "-"
+			(at 120.65 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "-"
 			(at 120.65 111.76 0)
 			(effects
 				(font
@@ -15391,7 +15607,7 @@
 				(hide yes)
 			)
 		)
-		(property "Element14" ""
+		(property "Element14" "-"
 			(at 365.76 69.85 0)
 			(effects
 				(font
@@ -15546,7 +15762,7 @@
 				(hide yes)
 			)
 		)
-		(property "Element14" ""
+		(property "Element14" "-"
 			(at 359.41 80.01 0)
 			(effects
 				(font
@@ -15699,7 +15915,7 @@
 				(hide yes)
 			)
 		)
-		(property "Element14" ""
+		(property "Element14" "-"
 			(at 60.96 35.56 0)
 			(effects
 				(font
@@ -15979,6 +16195,24 @@
 				(hide yes)
 			)
 		)
+		(property "Element14" "-"
+			(at 120.65 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "-"
+			(at 120.65 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "364a3058-edfb-4b8f-b2f5-df7df1f633ce")
 		)
@@ -16039,6 +16273,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 241.3 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Element14" "9492445"
+			(at 241.3 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "-"
 			(at 241.3 107.95 0)
 			(effects
 				(font
@@ -16536,6 +16788,15 @@
 				(hide yes)
 			)
 		)
+		(property "Element14" "-"
+			(at 370.84 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ecfbd6cc-bd6b-4ccb-bbf7-9301829cfa59")
 		)
@@ -16596,6 +16857,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 214.63 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Element14" "9492445"
+			(at 214.63 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "-"
 			(at 214.63 154.94 0)
 			(effects
 				(font
@@ -16684,6 +16963,15 @@
 			)
 		)
 		(property "LCSC" "C21190"
+			(at 54.61 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Element14" "-"
 			(at 54.61 191.77 0)
 			(effects
 				(font
@@ -16892,6 +17180,24 @@
 				(hide yes)
 			)
 		)
+		(property "Element14" "1830787"
+			(at 309.88 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "-"
+			(at 309.88 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "b958be2b-4ff8-43af-a8e3-addcaf3f5698")
 		)
@@ -17051,7 +17357,7 @@
 				(hide yes)
 			)
 		)
-		(property "Element14" ""
+		(property "Element14" "-"
 			(at 152.4 59.69 0)
 			(effects
 				(font
@@ -17462,6 +17768,24 @@
 				(hide yes)
 			)
 		)
+		(property "Element14" "9492445"
+			(at 187.96 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "-"
+			(at 187.96 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "c0f8645f-fc83-48a5-9cc6-93b87020cefe")
 		)
@@ -17684,7 +18008,7 @@
 				(hide yes)
 			)
 		)
-		(property "Element14" ""
+		(property "Element14" "-"
 			(at 54.61 114.3 0)
 			(effects
 				(font
@@ -17767,7 +18091,7 @@
 				(hide yes)
 			)
 		)
-		(property "Element14" ""
+		(property "Element14" "-"
 			(at 86.36 33.02 0)
 			(effects
 				(font
@@ -17901,6 +18225,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 161.29 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Element14" "9492445"
+			(at 161.29 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "-"
 			(at 161.29 130.81 0)
 			(effects
 				(font
@@ -18334,7 +18676,7 @@
 				(hide yes)
 			)
 		)
-		(property "Element14" ""
+		(property "Element14" "-"
 			(at 27.94 114.3 0)
 			(effects
 				(font
@@ -18418,7 +18760,7 @@
 				(hide yes)
 			)
 		)
-		(property "Element14" ""
+		(property "Element14" "-"
 			(at 29.21 43.18 0)
 			(effects
 				(font
@@ -18675,6 +19017,15 @@
 			)
 		)
 		(property "LCSC" "C21190"
+			(at 370.84 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Element14" "-"
 			(at 370.84 44.45 0)
 			(effects
 				(font
@@ -19090,6 +19441,24 @@
 				(hide yes)
 			)
 		)
+		(property "Element14" "9492445"
+			(at 161.29 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "-"
+			(at 161.29 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "ea3528c5-671b-4720-9cd2-6a07c064bf5e")
 		)
@@ -19227,6 +19596,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 107.95 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Element14" "9492445"
+			(at 107.95 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "-"
 			(at 107.95 130.81 0)
 			(effects
 				(font
@@ -19525,7 +19912,7 @@
 				(hide yes)
 			)
 		)
-		(property "Element14" ""
+		(property "Element14" "-"
 			(at 381 39.37 0)
 			(effects
 				(font
@@ -19594,6 +19981,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 214.63 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Element14" "9492445"
+			(at 214.63 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "-"
 			(at 214.63 130.81 0)
 			(effects
 				(font
@@ -20025,7 +20430,7 @@
 				(hide yes)
 			)
 		)
-		(property "Element14" ""
+		(property "Element14" "-"
 			(at 66.04 160.02 0)
 			(effects
 				(font
@@ -20236,6 +20641,24 @@
 				(hide yes)
 			)
 		)
+		(property "Element14" "1830787"
+			(at 127 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "-"
+			(at 127 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "0afc28cd-a783-416a-8677-0e46f2e93910")
 		)
@@ -20332,7 +20755,7 @@
 				(hide yes)
 			)
 		)
-		(property "Element14" ""
+		(property "Element14" "-"
 			(at 54.61 151.13 0)
 			(effects
 				(font
@@ -20672,6 +21095,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 267.97 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Element14" "9492445"
+			(at 267.97 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "-"
 			(at 267.97 130.81 0)
 			(effects
 				(font
@@ -21094,6 +21535,24 @@
 				(hide yes)
 			)
 		)
+		(property "Element14" "9492445"
+			(at 267.97 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "-"
+			(at 267.97 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "501d655d-4848-4927-a774-affb06d209c7")
 		)
@@ -21249,7 +21708,7 @@
 				(hide yes)
 			)
 		)
-		(property "Element14" ""
+		(property "Element14" "-"
 			(at 54.61 182.88 0)
 			(effects
 				(font
@@ -21674,7 +22133,7 @@
 				(hide yes)
 			)
 		)
-		(property "Element14" ""
+		(property "Element14" "-"
 			(at 36.83 114.3 0)
 			(effects
 				(font
@@ -21757,7 +22216,7 @@
 				(hide yes)
 			)
 		)
-		(property "Element14" ""
+		(property "Element14" "-"
 			(at 381 44.45 0)
 			(effects
 				(font
@@ -21976,7 +22435,7 @@
 				(hide yes)
 			)
 		)
-		(property "Element14" ""
+		(property "Element14" "-"
 			(at 365.76 74.93 0)
 			(effects
 				(font
@@ -22064,7 +22523,7 @@
 				(hide yes)
 			)
 		)
-		(property "Element14" ""
+		(property "Element14" "-"
 			(at 360.68 33.02 0)
 			(effects
 				(font
@@ -22133,6 +22592,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 241.3 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Element14" "9492445"
+			(at 241.3 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "-"
 			(at 241.3 130.81 0)
 			(effects
 				(font
@@ -22297,7 +22774,7 @@
 				(hide yes)
 			)
 		)
-		(property "Element14" ""
+		(property "Element14" "-"
 			(at 360.68 49.53 0)
 			(effects
 				(font
@@ -22383,7 +22860,7 @@
 				(hide yes)
 			)
 		)
-		(property "Element14" ""
+		(property "Element14" "-"
 			(at 86.36 43.18 0)
 			(effects
 				(font

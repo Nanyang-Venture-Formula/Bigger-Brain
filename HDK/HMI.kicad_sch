@@ -13105,7 +13105,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical"
+		(property "Footprint" "NVF-Kicad:PH_01x02V-H"
 			(at 137.16 111.76 0)
 			(effects
 				(font
@@ -13201,7 +13201,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical"
+		(property "Footprint" "NVF-Kicad:PH_01x02V-H"
 			(at 137.16 101.6 0)
 			(effects
 				(font
@@ -13772,7 +13772,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical"
+		(property "Footprint" "NVF-Kicad:PH_01x02V-H"
 			(at 104.14 101.6 0)
 			(effects
 				(font
@@ -15640,7 +15640,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical"
+		(property "Footprint" "NVF-Kicad:PH_01x02V-H"
 			(at 104.14 111.76 0)
 			(effects
 				(font
@@ -15803,7 +15803,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical"
+		(property "Footprint" "NVF-Kicad:PH_01x02V-H"
 			(at 120.65 111.76 0)
 			(effects
 				(font
@@ -16720,7 +16720,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical"
+		(property "Footprint" "NVF-Kicad:PH_01x02V-H"
 			(at 120.65 101.6 0)
 			(effects
 				(font

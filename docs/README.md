@@ -30,7 +30,7 @@ This repository contains all documents regarding the Bigger Brain board.
 
 ## Bom
 
-[Interactive BOM](./ibom/bigger-brain-ibom.html)
+[Interactive BOM](./ibom/ibom.html)
 
 [BOM](./bom/bigger-brain.csv)
 

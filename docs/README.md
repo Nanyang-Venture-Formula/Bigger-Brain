@@ -12,24 +12,25 @@ This repository contains all documents regarding the Bigger Brain board.
 
 ## Schematics
 
-![img](./schematics/Bigger-Brain.svg)
+![img](./schematics/bigger-brain.svg)
 
 
 ## Assembly
 
-![img](./assembly/Bigger-Brain_Colored-TOP.svg)
-![img](./assembly/Bigger-Brain_Colored-BOT.svg)
+![img](./assembly/bigger-brain_Colored-TOP.svg)
+![img](./assembly/bigger-brain_Colored-BOT.svg)
 
 
 ## Renders
 
-![img](./renders/Bigger-Brain-top.png)
-![img](./renders/Bigger-Brain-bottom.png)
+![img](./renders/bigger-brain-top.png)
+![img](./renders/bigger-brain-top-iso.png)
+![img](./renders/bigger-brain-bottom.png)
 
 
 ## Bom
 
-[Interactive BOM](./ibom/Bigger-Brain-ibom.html)
+[Interactive BOM](./ibom/bigger-brain-ibom.html)
 
-[BOM](./bom/SmallGeneral-BOM.csv)
+[BOM](./bom/bigger-brain.csv)
 

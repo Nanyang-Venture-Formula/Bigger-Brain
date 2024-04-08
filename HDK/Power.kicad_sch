@@ -9463,7 +9463,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C6186"
+		(property "LCSC" "C6187"
 			(at 125.73 151.13 0)
 			(effects
 				(font
@@ -10731,7 +10731,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "GZ2012D101TF"
+		(property "LCSC" "C1015"
 			(at 107.95 82.55 0)
 			(effects
 				(font

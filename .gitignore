@@ -1,4 +1,14 @@
+
+*.csv
+
+!*Production/*
+!*Production/*/bom.csv
+!*Production/*/designators.csv
+!*Production/*/positions.csv
+
 *.config.ini
+
+*.lck
 
 # For PCBs designed using KiCad: https://www.kicad.org/
 # Format documentation: https://kicad.org/help/file-formats/
@@ -28,7 +38,6 @@ fp-info-cache
 
 # Exported BOM files
 *.xml
-*.csv
 
 # General
 .DS_Store
@@ -367,3 +376,4 @@ _deps
 
 # Built Visual Studio Code Extensions
 *.vsix
+

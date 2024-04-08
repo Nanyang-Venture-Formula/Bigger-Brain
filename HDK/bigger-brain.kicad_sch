@@ -6,8 +6,8 @@
 	(paper "A3")
 	(title_block
 		(title "Bigger Brain")
-		(date "2024-03-05")
-		(rev "2")
+		(date "2024-04-08")
+		(rev "2.1")
 		(company "Scott CJX")
 	)
 	(lib_symbols
@@ -6725,6 +6725,16 @@
 	)
 	(wire
 		(pts
+			(xy 82.55 119.38) (xy 102.87 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32d4863f-c877-4a56-9099-c60b984e0db2")
+	)
+	(wire
+		(pts
 			(xy 191.77 76.2) (xy 171.45 76.2)
 		)
 		(stroke
@@ -7712,6 +7722,16 @@
 			(type default)
 		)
 		(uuid "b447e01f-be8d-4f11-b03f-04478ea81978")
+	)
+	(wire
+		(pts
+			(xy 82.55 116.84) (xy 102.87 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4a63321-72e8-4442-bd06-371d61e8c681")
 	)
 	(wire
 		(pts
@@ -9703,7 +9723,7 @@
 	)
 	(global_label "PG13"
 		(shape input)
-		(at 102.87 119.38 180)
+		(at 82.55 119.38 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9713,7 +9733,7 @@
 		)
 		(uuid "0ae0c855-f26f-48b9-973b-9f1920bb76cd")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 94.9258 119.38 0)
+			(at 74.6058 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9967,7 +9987,7 @@
 	)
 	(global_label "PG12"
 		(shape input)
-		(at 102.87 116.84 180)
+		(at 82.55 116.84 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9977,7 +9997,7 @@
 		)
 		(uuid "53eddb7f-7da6-4668-bc0d-d3b462ab93e2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 94.9258 116.84 0)
+			(at 74.6058 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11267,6 +11287,15 @@
 				(hide yes)
 			)
 		)
+		(property "Assemble" "1"
+			(at 41.91 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "638da19c-d127-4ab5-9481-0d4e6be82bbe")
 		)
@@ -11344,6 +11373,15 @@
 			)
 		)
 		(property "Element14" "-"
+			(at 38.1 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Assemble" "1"
 			(at 38.1 78.74 0)
 			(effects
 				(font
@@ -11435,6 +11473,15 @@
 			)
 		)
 		(property "Element14" "-"
+			(at 220.98 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Assemble" "1"
 			(at 220.98 129.54 0)
 			(effects
 				(font
@@ -11595,6 +11642,15 @@
 				(hide yes)
 			)
 		)
+		(property "Assemble" "1"
+			(at 220.98 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "c32330cd-fcb1-42c5-8511-3163b8a37eaa")
 		)
@@ -11737,6 +11793,15 @@
 			)
 		)
 		(property "Element14" "-"
+			(at 38.1 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Assemble" "1"
 			(at 38.1 111.76 0)
 			(effects
 				(font
@@ -12032,6 +12097,15 @@
 				(hide yes)
 			)
 		)
+		(property "Assemble" "1"
+			(at 34.29 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "15eb7441-3851-482f-8de9-5ccb420a91ce")
 		)
@@ -12244,6 +12318,15 @@
 			)
 		)
 		(property "Element14" "-"
+			(at 135.89 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Assemble" "1"
 			(at 135.89 144.78 0)
 			(effects
 				(font
@@ -12890,6 +12973,15 @@
 			)
 		)
 		(property "Element14" "-"
+			(at 26.67 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Assemble" "1"
 			(at 26.67 67.31 0)
 			(effects
 				(font

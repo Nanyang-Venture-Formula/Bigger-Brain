@@ -6,8 +6,8 @@
 	(paper "A3")
 	(title_block
 		(title "Bigger Brain")
-		(date "2024-03-05")
-		(rev "2")
+		(date "2024-04-08")
+		(rev "2.1")
 		(company "Scott CJX")
 	)
 	(lib_symbols
@@ -3531,6 +3531,151 @@
 				)
 			)
 		)
+		(symbol "Jumper:Jumper_2_Open"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim yes)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "JP"
+				(at 0 2.794 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Jumper_2_Open"
+				(at 0 -2.286 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Jumper, 2-pole, open"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Jumper SPST"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Jumper* TestPoint*2Pads* TestPoint*Bridge*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Jumper_2_Open_0_0"
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Jumper_2_Open_0_1"
+				(arc
+					(start 1.524 1.27)
+					(mid 0 1.778)
+					(end -1.524 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Jumper_2_Open_1_1"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Mechanical:MountingHole_Pad"
 			(pin_numbers hide)
 			(pin_names
@@ -6904,6 +7049,16 @@
 	)
 	(wire
 		(pts
+			(xy 80.01 53.34) (xy 80.01 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e5c2592-12c9-4d0e-a336-ddea76aa903e")
+	)
+	(wire
+		(pts
 			(xy 196.85 154.94) (xy 195.58 154.94)
 		)
 		(stroke
@@ -7034,7 +7189,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 43.18) (xy 82.55 43.18)
+			(xy 80.01 43.18) (xy 83.82 43.18)
 		)
 		(stroke
 			(width 0)
@@ -7054,7 +7209,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 31.75) (xy 92.71 33.02)
+			(xy 95.25 31.75) (xy 95.25 33.02)
 		)
 		(stroke
 			(width 0)
@@ -7294,13 +7449,13 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 43.18) (xy 92.71 43.18)
+			(xy 92.71 53.34) (xy 95.25 53.34)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "40fabab4-94b6-4c46-9197-9c2aa42d2cbb")
+		(uuid "43b7ee37-c6c6-40c3-9f84-352179671d62")
 	)
 	(wire
 		(pts
@@ -7444,6 +7599,16 @@
 	)
 	(wire
 		(pts
+			(xy 91.44 43.18) (xy 95.25 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56b0b522-9100-4c7f-8091-2f051d7f7653")
+	)
+	(wire
+		(pts
 			(xy 276.86 125.73) (xy 275.59 125.73)
 		)
 		(stroke
@@ -7564,6 +7729,16 @@
 	)
 	(wire
 		(pts
+			(xy 91.44 33.02) (xy 95.25 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64ee029f-7f9d-4495-a2ed-f0725002c636")
+	)
+	(wire
+		(pts
 			(xy 276.86 107.95) (xy 275.59 107.95)
 		)
 		(stroke
@@ -7581,16 +7756,6 @@
 			(type default)
 		)
 		(uuid "6a00d98d-6ea1-4785-9d2e-714b9a558524")
-	)
-	(wire
-		(pts
-			(xy 92.71 33.02) (xy 90.17 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6cc7e799-df5f-4e14-a125-002393c499be")
 	)
 	(wire
 		(pts
@@ -7964,7 +8129,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 41.91) (xy 92.71 43.18)
+			(xy 95.25 41.91) (xy 95.25 43.18)
 		)
 		(stroke
 			(width 0)
@@ -8011,6 +8176,16 @@
 			(type default)
 		)
 		(uuid "a66be5e8-dc48-4d33-b4fc-cb9a94c1e5b6")
+	)
+	(wire
+		(pts
+			(xy 95.25 52.07) (xy 95.25 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a98dd4cf-8e26-446c-b4c9-a6c597d5da18")
 	)
 	(wire
 		(pts
@@ -8614,6 +8789,16 @@
 	)
 	(wire
 		(pts
+			(xy 80.01 53.34) (xy 82.55 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "faf6a9ae-a00f-4258-91d1-deb3ba711ad7")
+	)
+	(wire
+		(pts
 			(xy 349.25 53.34) (xy 349.25 54.61)
 		)
 		(stroke
@@ -8654,7 +8839,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 33.02) (xy 82.55 33.02)
+			(xy 80.01 33.02) (xy 83.82 33.02)
 		)
 		(stroke
 			(width 0)
@@ -10860,7 +11045,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "200"
+		(property "Value" "300"
 			(at 55.88 161.29 0)
 			(effects
 				(font
@@ -10896,7 +11081,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C8218"
+		(property "LCSC" "C23025"
 			(at 54.61 160.02 0)
 			(effects
 				(font
@@ -10906,6 +11091,15 @@
 			)
 		)
 		(property "Element14" "-"
+			(at 54.61 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Assemble" "1"
 			(at 54.61 160.02 0)
 			(effects
 				(font
@@ -11138,7 +11332,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "05a19765-37f2-4e76-bcbc-5da45907e652")
 		(property "Reference" "#PWR0525"
 			(at 138.43 125.73 0)
@@ -11150,7 +11343,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 146.05 125.7299 90)
+			(at 144.78 125.73 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11267,6 +11460,15 @@
 				(hide yes)
 			)
 		)
+		(property "Assemble" "1"
+			(at 60.96 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3b1a1d80-844c-4473-a249-ebc0c91de6d3")
 		)
@@ -11357,7 +11559,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "0abc0426-01ad-4e41-9628-f3d09de13d3c")
 		(property "Reference" "#PWR0422"
 			(at 113.03 128.27 0)
@@ -11369,7 +11570,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 120.65 128.2699 90)
+			(at 119.38 128.27 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11627,7 +11828,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "1228c005-802f-4b9a-85a7-48a72218f5eb")
 		(property "Reference" "#PWR0411"
 			(at 120.65 152.4 0)
@@ -11639,7 +11839,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 113.03 152.3999 90)
+			(at 111.76 152.4 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11748,7 +11948,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "-"
+		(property "LCSC" "C157975"
+			(at 309.88 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Assemble" "0"
 			(at 309.88 154.94 0)
 			(effects
 				(font
@@ -11885,6 +12094,7 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
@@ -11934,7 +12144,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "18107050-73ae-42c7-8539-97b80d730a62")
 		(property "Reference" "#PWR0516"
 			(at 246.38 128.27 0)
@@ -11946,7 +12155,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 254 128.2699 90)
+			(at 252.73 128.27 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12131,6 +12340,15 @@
 				(hide yes)
 			)
 		)
+		(property "Assemble" "1"
+			(at 152.4 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "c6cecfa5-eed2-4d9d-8d75-736e2a84cc3f")
 		)
@@ -12155,7 +12373,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "1c336bd3-d8a9-4f77-80d2-e2c8156f493e")
 		(property "Reference" "#PWR0536"
 			(at 193.04 125.73 0)
@@ -12167,7 +12384,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 200.66 125.7299 90)
+			(at 199.39 125.73 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12223,7 +12440,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "1c3bb5ed-04f5-4096-be4c-a5e4fb4003af")
 		(property "Reference" "#PWR0424"
 			(at 219.71 102.87 0)
@@ -12235,7 +12451,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 227.33 102.8699 90)
+			(at 226.06 102.87 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12309,6 +12525,7 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
@@ -12412,7 +12629,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "-"
+		(property "LCSC" "C157993"
+			(at 133.35 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Assemble" "0"
 			(at 133.35 130.81 0)
 			(effects
 				(font
@@ -12507,7 +12733,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "-"
+		(property "LCSC" "C157993"
+			(at 214.63 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Assemble" "0"
 			(at 214.63 107.95 0)
 			(effects
 				(font
@@ -12615,7 +12850,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "2088da6e-19c5-4b26-a081-60c72855031f")
 		(property "Reference" "#PWR0410"
 			(at 120.65 149.86 0)
@@ -12627,7 +12861,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 113.03 149.8599 90)
+			(at 111.76 149.86 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12736,7 +12970,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "-"
+		(property "LCSC" "C157993"
+			(at 267.97 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Assemble" "0"
 			(at 267.97 107.95 0)
 			(effects
 				(font
@@ -12777,7 +13020,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "24fba626-85a8-4bea-8e3e-1c35a8021a7b")
 		(property "Reference" "#PWR0440"
 			(at 273.05 152.4 0)
@@ -12789,7 +13031,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 280.67 152.3999 90)
+			(at 279.4 152.4 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12899,7 +13141,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "-"
+		(property "LCSC" "C2683610"
+			(at 137.16 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Assemble" "0"
 			(at 137.16 111.76 0)
 			(effects
 				(font
@@ -12986,7 +13237,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "-"
+		(property "LCSC" "C2683610"
+			(at 137.16 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Assemble" "0"
 			(at 137.16 101.6 0)
 			(effects
 				(font
@@ -13082,6 +13342,15 @@
 				(hide yes)
 			)
 		)
+		(property "Assemble" "1"
+			(at 77.47 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "9618a812-9622-40ff-89cf-66ef359c3135")
 		)
@@ -13106,7 +13375,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "2fbfa77e-c935-4d41-9395-d5af46e6bb5f")
 		(property "Reference" "#PWR0524"
 			(at 193.04 149.86 0)
@@ -13118,7 +13386,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 200.66 149.8599 90)
+			(at 199.39 149.86 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13227,6 +13495,15 @@
 			)
 		)
 		(property "Element14" "-"
+			(at 152.4 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Assemble" "1"
 			(at 152.4 69.85 0)
 			(effects
 				(font
@@ -13372,7 +13649,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "-"
+		(property "LCSC" "C485575"
 			(at 153.67 38.1 0)
 			(effects
 				(font
@@ -13382,6 +13659,15 @@
 			)
 		)
 		(property "Element14" "1012243"
+			(at 153.67 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Assemble" "1"
 			(at 153.67 38.1 0)
 			(effects
 				(font
@@ -13522,7 +13808,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "-"
+		(property "LCSC" "C2683610"
+			(at 104.14 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Assemble" "0"
 			(at 104.14 101.6 0)
 			(effects
 				(font
@@ -13541,6 +13836,71 @@
 			(project "bigger-brain"
 				(path "/4f585eb3-0717-4acd-9fc1-ccc573c80f45/a2e49620-6bcb-48ed-bf4e-cee4a2fe5c52"
 					(reference "J404")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VBUS")
+		(at 80.01 52.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "32ff411f-a5f0-4d32-9cc2-1188902a3a6b")
+		(property "Reference" "#PWR0448"
+			(at 80.01 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VBUS"
+			(at 80.01 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 80.01 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 80.01 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 80.01 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e7339906-0279-47d6-b911-3e6dfb18e35c")
+		)
+		(instances
+			(project "bigger-brain"
+				(path "/4f585eb3-0717-4acd-9fc1-ccc573c80f45/a2e49620-6bcb-48ed-bf4e-cee4a2fe5c52"
+					(reference "#PWR0448")
 					(unit 1)
 				)
 			)
@@ -13611,6 +13971,15 @@
 			)
 		)
 		(property "Element14" "-"
+			(at 349.25 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Assemble" "1"
 			(at 349.25 33.02 0)
 			(effects
 				(font
@@ -13710,7 +14079,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "396cd4ab-763f-4a0c-8cef-b5929d6751f7")
 		(property "Reference" "#PWR0437"
 			(at 246.38 152.4 0)
@@ -13722,7 +14090,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 254 152.3999 90)
+			(at 252.73 152.4 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13831,7 +14199,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "-"
+		(property "LCSC" "C157993"
+			(at 241.3 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Assemble" "0"
 			(at 241.3 154.94 0)
 			(effects
 				(font
@@ -13873,7 +14250,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "3d8e5850-a007-4d28-8bcc-525f4c7d71c5")
 		(property "Reference" "#PWR0433"
 			(at 219.71 149.86 0)
@@ -13885,7 +14261,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 227.33 149.8599 90)
+			(at 226.06 149.86 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14004,6 +14380,15 @@
 				(hide yes)
 			)
 		)
+		(property "Assemble" "1"
+			(at 349.25 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6babd724-fdde-4c4a-83ea-bd8ec395eb22")
 		)
@@ -14081,7 +14466,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "-"
+		(property "LCSC" "C157993"
+			(at 187.96 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Assemble" "0"
 			(at 187.96 130.81 0)
 			(effects
 				(font
@@ -14247,6 +14641,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 95.25 52.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "455af33b-2e5b-4085-a832-162ed9e16dcf")
+		(property "Reference" "#PWR0449"
+			(at 95.25 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 95.25 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 95.25 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 95.25 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 95.25 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8280c0d5-9eea-499c-b9d2-9c69b8b587ad")
+		)
+		(instances
+			(project "bigger-brain"
+				(path "/4f585eb3-0717-4acd-9fc1-ccc573c80f45/a2e49620-6bcb-48ed-bf4e-cee4a2fe5c52"
+					(reference "#PWR0449")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
 		(at 45.72 114.3 0)
 		(unit 1)
@@ -14310,6 +14769,15 @@
 			)
 		)
 		(property "Element14" "-"
+			(at 45.72 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Assemble" "1"
 			(at 45.72 114.3 0)
 			(effects
 				(font
@@ -14391,7 +14859,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "-"
+		(property "LCSC" "C157975"
+			(at 41.91 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Assemble" "1"
 			(at 41.91 86.36 0)
 			(effects
 				(font
@@ -14492,7 +14969,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "-"
+		(property "LCSC" "C2894981"
 			(at 210.185 47.625 0)
 			(effects
 				(font
@@ -14502,6 +14979,15 @@
 			)
 		)
 		(property "Element14" "-"
+			(at 210.185 47.625 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Assemble" "0"
 			(at 210.185 47.625 0)
 			(effects
 				(font
@@ -14647,7 +15133,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "4b378fbe-227e-4b99-99f5-6ce392b08596")
 		(property "Reference" "#PWR0431"
 			(at 273.05 105.41 0)
@@ -14659,7 +15144,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 280.67 105.4099 90)
+			(at 279.4 105.41 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14714,7 +15199,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "5255555f-03ca-4ca6-bb07-3a6d34b80167")
 		(property "Reference" "#PWR0515"
 			(at 219.71 128.27 0)
@@ -14726,7 +15210,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 227.33 128.2699 90)
+			(at 226.06 128.27 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14845,6 +15329,15 @@
 				(hide yes)
 			)
 		)
+		(property "Assemble" "1"
+			(at 349.25 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6d5f2621-af6b-4075-a763-0604bb24d680")
 		)
@@ -14878,7 +15371,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "200"
+		(property "Value" "300"
 			(at 78.74 161.29 0)
 			(effects
 				(font
@@ -14914,7 +15407,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C8218"
+		(property "LCSC" "C23025"
 			(at 77.47 160.02 0)
 			(effects
 				(font
@@ -14924,6 +15417,15 @@
 			)
 		)
 		(property "Element14" "-"
+			(at 77.47 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Assemble" "1"
 			(at 77.47 160.02 0)
 			(effects
 				(font
@@ -15011,6 +15513,15 @@
 			)
 		)
 		(property "Element14" "-"
+			(at 66.04 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Assemble" "1"
 			(at 66.04 151.13 0)
 			(effects
 				(font
@@ -15165,7 +15676,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "-"
+		(property "LCSC" "C2683610"
+			(at 104.14 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Assemble" "0"
 			(at 104.14 111.76 0)
 			(effects
 				(font
@@ -15198,7 +15718,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "64159073-7772-4c16-9d0f-963feea66a02")
 		(property "Reference" "#PWR0421"
 			(at 113.03 125.73 0)
@@ -15210,7 +15729,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 120.65 125.7299 90)
+			(at 119.38 125.73 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15320,7 +15839,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "-"
+		(property "LCSC" "C2683610"
+			(at 120.65 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Assemble" "0"
 			(at 120.65 111.76 0)
 			(effects
 				(font
@@ -15418,7 +15946,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "65bd50a2-9fb9-40da-9f05-878154285547")
 		(property "Reference" "#PWR0537"
 			(at 166.37 149.86 0)
@@ -15430,7 +15957,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 173.99 149.8599 90)
+			(at 172.72 149.86 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15486,7 +16013,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "65cfc3d9-6a26-474d-915b-fda8468098c1")
 		(property "Reference" "#PWR0513"
 			(at 166.37 125.73 0)
@@ -15498,7 +16024,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 173.99 125.7299 90)
+			(at 172.72 125.73 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15616,6 +16142,15 @@
 				(hide yes)
 			)
 		)
+		(property "Assemble" "1"
+			(at 365.76 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "4b6c2980-809a-444c-a196-ce84f922970f")
 		)
@@ -15639,7 +16174,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "66e1778f-e850-40e0-b719-69cbdbdac4d3")
 		(property "Reference" "#PWR0425"
 			(at 219.71 105.41 0)
@@ -15651,7 +16185,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 227.33 105.4099 90)
+			(at 226.06 105.41 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15763,6 +16297,15 @@
 			)
 		)
 		(property "Element14" "-"
+			(at 359.41 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Assemble" "1"
 			(at 359.41 80.01 0)
 			(effects
 				(font
@@ -15916,6 +16459,15 @@
 			)
 		)
 		(property "Element14" "-"
+			(at 60.96 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Assemble" "1"
 			(at 60.96 35.56 0)
 			(effects
 				(font
@@ -16204,7 +16756,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "-"
+		(property "LCSC" "C2683610"
+			(at 120.65 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Assemble" "0"
 			(at 120.65 101.6 0)
 			(effects
 				(font
@@ -16290,7 +16851,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "-"
+		(property "LCSC" "C157993"
+			(at 241.3 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Assemble" "0"
 			(at 241.3 107.95 0)
 			(effects
 				(font
@@ -16486,6 +17056,7 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
@@ -16668,7 +17239,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "77364a87-d5b3-4fd5-ad3e-6825969226da")
 		(property "Reference" "#PWR0527"
 			(at 273.05 128.27 0)
@@ -16680,7 +17250,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 280.67 128.2699 90)
+			(at 279.4 128.27 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16797,6 +17367,15 @@
 				(hide yes)
 			)
 		)
+		(property "Assemble" "1"
+			(at 370.84 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ecfbd6cc-bd6b-4ccb-bbf7-9301829cfa59")
 		)
@@ -16874,7 +17453,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "-"
+		(property "LCSC" "C157993"
+			(at 214.63 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Assemble" "0"
 			(at 214.63 154.94 0)
 			(effects
 				(font
@@ -16915,10 +17503,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "7af0f874-343f-428e-9f64-32d9c40a15ad")
 		(property "Reference" "R414"
-			(at 57.15 190.4999 0)
+			(at 55.88 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16927,7 +17514,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 57.15 193.0399 0)
+			(at 55.88 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16972,6 +17559,15 @@
 			)
 		)
 		(property "Element14" "-"
+			(at 54.61 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Assemble" "1"
 			(at 54.61 191.77 0)
 			(effects
 				(font
@@ -17189,7 +17785,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "-"
+		(property "LCSC" "C157975"
+			(at 309.88 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Assemble" "0"
 			(at 309.88 130.81 0)
 			(effects
 				(font
@@ -17233,7 +17838,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 92.71 31.75 0)
+		(at 95.25 31.75 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17241,7 +17846,7 @@
 		(dnp no)
 		(uuid "82321a4a-ef05-49ca-a0c8-d74ef2bdbe76")
 		(property "Reference" "#PWR0418"
-			(at 92.71 35.56 0)
+			(at 95.25 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17250,7 +17855,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 92.71 27.94 0)
+			(at 95.25 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17258,7 +17863,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 92.71 31.75 0)
+			(at 95.25 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17267,7 +17872,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 92.71 31.75 0)
+			(at 95.25 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17276,7 +17881,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 92.71 31.75 0)
+			(at 95.25 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17366,6 +17971,15 @@
 				(hide yes)
 			)
 		)
+		(property "Assemble" "1"
+			(at 152.4 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "c34ccfe6-49bc-458c-89e3-496b86ab2b78")
 		)
@@ -17408,6 +18022,7 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
@@ -17777,7 +18392,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "-"
+		(property "LCSC" "C157993"
+			(at 187.96 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Assemble" "0"
 			(at 187.96 154.94 0)
 			(effects
 				(font
@@ -17886,7 +18510,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "8e349847-e900-4df6-9b8e-eb49b178f3e7")
 		(property "Reference" "#PWR0518"
 			(at 303.53 128.27 0)
@@ -17898,7 +18521,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 295.91 128.2699 90)
+			(at 297.18 128.27 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18017,6 +18640,15 @@
 				(hide yes)
 			)
 		)
+		(property "Assemble" "1"
+			(at 54.61 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "db6dbf2c-ade6-4e01-a00e-cfd87a8ab439")
 		)
@@ -18031,7 +18663,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Schottky")
-		(at 86.36 33.02 180)
+		(at 87.63 33.02 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18039,7 +18671,7 @@
 		(dnp no)
 		(uuid "90b41997-f5c4-4b8a-9867-a95c766eb287")
 		(property "Reference" "D401"
-			(at 86.36 29.21 0)
+			(at 87.63 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18047,7 +18679,7 @@
 			)
 		)
 		(property "Value" "SS14"
-			(at 86.6775 29.21 0)
+			(at 87.9475 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18056,7 +18688,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SMA"
-			(at 86.36 33.02 0)
+			(at 87.63 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18065,7 +18697,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 86.36 33.02 0)
+			(at 87.63 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18074,7 +18706,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 86.36 33.02 0)
+			(at 87.63 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18083,7 +18715,7 @@
 			)
 		)
 		(property "LCSC" "C2480"
-			(at 86.36 33.02 0)
+			(at 87.63 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18092,7 +18724,16 @@
 			)
 		)
 		(property "Element14" "-"
-			(at 86.36 33.02 0)
+			(at 87.63 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Assemble" "1"
+			(at 87.63 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18242,7 +18883,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "-"
+		(property "LCSC" "C157993"
+			(at 161.29 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Assemble" "0"
 			(at 161.29 130.81 0)
 			(effects
 				(font
@@ -18302,6 +18952,7 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
@@ -18370,6 +19021,7 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
@@ -18486,7 +19138,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "9cfa996e-9ca1-4655-98f9-4eda938e4123")
 		(property "Reference" "#PWR0514"
 			(at 303.53 125.73 0)
@@ -18498,7 +19149,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 295.91 125.7299 90)
+			(at 297.18 125.73 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18554,7 +19205,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "9f4bc7f8-38a0-40e8-9adc-0f7c5df49aed")
 		(property "Reference" "#PWR0523"
 			(at 273.05 125.73 0)
@@ -18566,7 +19216,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 280.67 125.7299 90)
+			(at 279.4 125.73 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18685,6 +19335,15 @@
 				(hide yes)
 			)
 		)
+		(property "Assemble" "1"
+			(at 27.94 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1961af99-93c2-44b0-9c13-ad05b6f43ebb")
 		)
@@ -18761,6 +19420,15 @@
 			)
 		)
 		(property "Element14" "-"
+			(at 29.21 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Assemble" "1"
 			(at 29.21 43.18 0)
 			(effects
 				(font
@@ -18897,6 +19565,101 @@
 		)
 	)
 	(symbol
+		(lib_id "Jumper:Jumper_2_Open")
+		(at 87.63 53.34 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a26257f4-1de1-46dc-8b54-9ce6726b81be")
+		(property "Reference" "JP401"
+			(at 87.63 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Jumper_2_Open"
+			(at 87.63 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 87.63 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 87.63 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Jumper, 2-pole, open"
+			(at 87.63 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Element14" "-"
+			(at 87.63 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "-"
+			(at 87.63 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Assemble" "0"
+			(at 87.63 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "20777053-fcc2-4e82-91b3-6789113fb9f0")
+		)
+		(pin "1"
+			(uuid "795cd69d-4c83-4a31-9f26-8b7eabcae993")
+		)
+		(instances
+			(project "bigger-brain"
+				(path "/4f585eb3-0717-4acd-9fc1-ccc573c80f45/a2e49620-6bcb-48ed-bf4e-cee4a2fe5c52"
+					(reference "JP401")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_name "GND_1")
 		(lib_id "power:GND")
 		(at 299.72 160.02 270)
@@ -18923,6 +19686,7 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
@@ -19034,6 +19798,15 @@
 				(hide yes)
 			)
 		)
+		(property "Assemble" "1"
+			(at 370.84 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f0b33850-ab76-40e9-be05-66cdd4e2de39")
 		)
@@ -19058,7 +19831,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "a93360b9-f13f-433b-ae2e-63baba80ba2a")
 		(property "Reference" "#PWR0530"
 			(at 303.53 152.4 0)
@@ -19070,7 +19842,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 295.91 152.3999 90)
+			(at 297.18 152.4 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19126,7 +19898,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "ab7774a6-33a7-47ef-9b28-c723943ee2c3")
 		(property "Reference" "#PWR0512"
 			(at 246.38 125.73 0)
@@ -19138,7 +19909,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 254 125.7299 90)
+			(at 252.73 125.73 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19193,7 +19964,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "acf28a46-e686-4164-bfa2-f5e2b87ea302")
 		(property "Reference" "#PWR0539"
 			(at 193.04 128.27 0)
@@ -19205,7 +19975,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 200.66 128.2699 90)
+			(at 199.39 128.27 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19329,7 +20099,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "af1b32e8-762d-4333-a418-5729dc042e7f")
 		(property "Reference" "#PWR0526"
 			(at 303.53 149.86 0)
@@ -19341,7 +20110,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 295.91 149.8599 90)
+			(at 297.18 149.86 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19450,7 +20219,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "-"
+		(property "LCSC" "C157993"
+			(at 161.29 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Assemble" "0"
 			(at 161.29 154.94 0)
 			(effects
 				(font
@@ -19510,6 +20288,7 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
@@ -19613,7 +20392,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "-"
+		(property "LCSC" "C157993"
+			(at 107.95 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Assemble" "0"
 			(at 107.95 130.81 0)
 			(effects
 				(font
@@ -19655,7 +20443,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "b56f95ad-a10c-4971-b697-ba86563de7dc")
 		(property "Reference" "#PWR0511"
 			(at 219.71 125.73 0)
@@ -19667,7 +20454,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 227.33 125.7299 90)
+			(at 226.06 125.73 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19741,6 +20528,7 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
@@ -19809,6 +20597,7 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
@@ -19921,6 +20710,15 @@
 				(hide yes)
 			)
 		)
+		(property "Assemble" "1"
+			(at 381 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "bc82601f-d4f1-4717-805c-c875891b42ed")
 		)
@@ -19998,7 +20796,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "-"
+		(property "LCSC" "C157993"
+			(at 214.63 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Assemble" "0"
 			(at 214.63 130.81 0)
 			(effects
 				(font
@@ -20104,7 +20911,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "c32c0bea-35c2-4b54-b02f-19fc577bcbf3")
 		(property "Reference" "#PWR0428"
 			(at 246.38 105.41 0)
@@ -20116,7 +20922,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 254 105.4099 90)
+			(at 252.73 105.41 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20258,6 +21064,7 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
@@ -20326,6 +21133,7 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
@@ -20385,7 +21193,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "200"
+		(property "Value" "300"
 			(at 67.31 161.29 0)
 			(effects
 				(font
@@ -20421,7 +21229,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C8218"
+		(property "LCSC" "C23025"
 			(at 66.04 160.02 0)
 			(effects
 				(font
@@ -20431,6 +21239,15 @@
 			)
 		)
 		(property "Element14" "-"
+			(at 66.04 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Assemble" "1"
 			(at 66.04 160.02 0)
 			(effects
 				(font
@@ -20529,7 +21346,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "cd75ea1e-ef85-4cb6-9520-79c0cb975c5d")
 		(property "Reference" "#PWR0439"
 			(at 273.05 149.86 0)
@@ -20541,7 +21357,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 280.67 149.8599 90)
+			(at 279.4 149.86 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20650,7 +21466,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "-"
+		(property "LCSC" "C157975"
+			(at 127 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Assemble" "0"
 			(at 127 154.94 0)
 			(effects
 				(font
@@ -20764,6 +21589,15 @@
 				(hide yes)
 			)
 		)
+		(property "Assemble" "1"
+			(at 54.61 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "8995b969-1a88-4dab-a1e6-ee28a50138c5")
 		)
@@ -20788,7 +21622,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "d0db2d2b-42c0-4781-81bd-fe84b63a135c")
 		(property "Reference" "#PWR0436"
 			(at 246.38 149.86 0)
@@ -20800,7 +21633,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 254 149.8599 90)
+			(at 252.73 149.86 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20991,7 +21824,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "dc0fe036-c464-4197-b6f5-12e503daf871")
 		(property "Reference" "#PWR0434"
 			(at 219.71 152.4 0)
@@ -21003,7 +21835,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 227.33 152.3999 90)
+			(at 226.06 152.4 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21112,7 +21944,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "-"
+		(property "LCSC" "C157993"
+			(at 267.97 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Assemble" "0"
 			(at 267.97 130.81 0)
 			(effects
 				(font
@@ -21221,7 +22062,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "dfef63b0-ada3-4dc0-bb65-dba3ec09b71a")
 		(property "Reference" "#PWR0528"
 			(at 193.04 152.4 0)
@@ -21233,7 +22073,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 200.66 152.3999 90)
+			(at 199.39 152.4 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21423,7 +22263,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "e3e9db4b-4c43-46f2-9aba-e4130b10fc8a")
 		(property "Reference" "#PWR0529"
 			(at 138.43 128.27 0)
@@ -21435,7 +22274,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 146.05 128.2699 90)
+			(at 144.78 128.27 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21544,7 +22383,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "-"
+		(property "LCSC" "C157993"
+			(at 267.97 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Assemble" "0"
 			(at 267.97 154.94 0)
 			(effects
 				(font
@@ -21586,7 +22434,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "e74d70ea-1a87-4918-9d9d-d71f18ee6826")
 		(property "Reference" "#PWR0427"
 			(at 246.38 102.87 0)
@@ -21598,7 +22445,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 254 102.8699 90)
+			(at 252.73 102.87 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21717,6 +22564,15 @@
 				(hide yes)
 			)
 		)
+		(property "Assemble" "1"
+			(at 54.61 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "3b31e52f-3c1b-4d8f-983a-70e7c4539f3b")
 		)
@@ -21759,6 +22615,7 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
@@ -21895,6 +22752,7 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
@@ -21944,7 +22802,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "f2bca26e-ec1f-4c17-919e-bdcc3f04be83")
 		(property "Reference" "#PWR0517"
 			(at 166.37 128.27 0)
@@ -21956,7 +22813,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 173.99 128.2699 90)
+			(at 172.72 128.27 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22011,7 +22868,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "f3a95141-e630-43f9-91a9-bd4b1a823954")
 		(property "Reference" "#PWR0540"
 			(at 166.37 152.4 0)
@@ -22023,7 +22879,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 173.99 152.3999 90)
+			(at 172.72 152.4 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22142,6 +22998,15 @@
 				(hide yes)
 			)
 		)
+		(property "Assemble" "1"
+			(at 36.83 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "99b0cbf8-b90a-4063-b688-09d9710f86ae")
 		)
@@ -22225,6 +23090,15 @@
 				(hide yes)
 			)
 		)
+		(property "Assemble" "1"
+			(at 381 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "2df8c34d-283a-4222-9105-e167ef3b57b2")
 		)
@@ -22249,7 +23123,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "f4ecd1a3-cfa2-4c65-80e3-4823c577d139")
 		(property "Reference" "#PWR0430"
 			(at 273.05 102.87 0)
@@ -22261,7 +23134,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 280.67 102.8699 90)
+			(at 279.4 102.87 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22310,7 +23183,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 92.71 41.91 0)
+		(at 95.25 41.91 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22318,7 +23191,7 @@
 		(dnp no)
 		(uuid "f551ee14-8332-406d-8462-6e3b5abafccd")
 		(property "Reference" "#PWR0420"
-			(at 92.71 45.72 0)
+			(at 95.25 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22327,7 +23200,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 92.71 38.1 0)
+			(at 95.25 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22335,7 +23208,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 92.71 41.91 0)
+			(at 95.25 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22344,7 +23217,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 92.71 41.91 0)
+			(at 95.25 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22353,7 +23226,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 92.71 41.91 0)
+			(at 95.25 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22436,6 +23309,15 @@
 			)
 		)
 		(property "Element14" "-"
+			(at 365.76 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Assemble" "1"
 			(at 365.76 74.93 0)
 			(effects
 				(font
@@ -22532,6 +23414,15 @@
 				(hide yes)
 			)
 		)
+		(property "Assemble" "1"
+			(at 360.68 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b1d85e7e-1f83-42a9-ba7a-268498e6c44d")
 		)
@@ -22609,7 +23500,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "-"
+		(property "LCSC" "C157993"
+			(at 241.3 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Assemble" "0"
 			(at 241.3 130.81 0)
 			(effects
 				(font
@@ -22783,6 +23683,15 @@
 				(hide yes)
 			)
 		)
+		(property "Assemble" "1"
+			(at 360.68 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4336e092-e533-421f-87b4-c1b0428ab8cd")
 		)
@@ -22800,7 +23709,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Schottky")
-		(at 86.36 43.18 180)
+		(at 87.63 43.18 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22808,7 +23717,7 @@
 		(dnp no)
 		(uuid "fc9f732b-635e-4404-a716-6e46190e2d32")
 		(property "Reference" "D402"
-			(at 86.36 39.37 0)
+			(at 87.63 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22816,7 +23725,7 @@
 			)
 		)
 		(property "Value" "SS14"
-			(at 86.6775 39.37 0)
+			(at 87.9475 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22825,7 +23734,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SMA"
-			(at 86.36 43.18 0)
+			(at 87.63 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22834,7 +23743,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 86.36 43.18 0)
+			(at 87.63 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22843,7 +23752,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 86.36 43.18 0)
+			(at 87.63 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22852,7 +23761,7 @@
 			)
 		)
 		(property "LCSC" "C2480"
-			(at 86.36 43.18 0)
+			(at 87.63 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22861,7 +23770,16 @@
 			)
 		)
 		(property "Element14" "-"
-			(at 86.36 43.18 0)
+			(at 87.63 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Assemble" "1"
+			(at 87.63 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22911,6 +23829,7 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""

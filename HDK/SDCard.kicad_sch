@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "Bigger Brain")
-		(date "2024-03-05")
-		(rev "2")
+		(date "2024-04-08")
+		(rev "2.1")
 		(company "Scott CJX")
 	)
 	(lib_symbols
@@ -2855,6 +2855,15 @@
 				(hide yes)
 			)
 		)
+		(property "Assemble" "1"
+			(at 36.83 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "746e938a-548b-496b-9c6a-7a5b097c4a31")
 		)
@@ -2934,6 +2943,15 @@
 			)
 		)
 		(property "Element14" "-"
+			(at 64.77 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Assemble" "1"
 			(at 64.77 41.91 0)
 			(effects
 				(font
@@ -3084,6 +3102,15 @@
 			)
 		)
 		(property "Element14" "-"
+			(at 77.47 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Assemble" "1"
 			(at 77.47 54.61 0)
 			(effects
 				(font
@@ -3244,6 +3271,15 @@
 				(hide yes)
 			)
 		)
+		(property "Assemble" "1"
+			(at 36.83 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5f2b26e5-6584-4e4c-a078-cf447bd34ba9")
 		)
@@ -3396,6 +3432,15 @@
 				(hide yes)
 			)
 		)
+		(property "Assemble" "1"
+			(at 36.83 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ad775aef-c8f2-4916-bda1-5a96763fffa4")
 		)
@@ -3473,6 +3518,15 @@
 			)
 		)
 		(property "Element14" "-"
+			(at 36.83 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Assemble" "1"
 			(at 36.83 36.83 0)
 			(effects
 				(font
@@ -3698,6 +3752,15 @@
 				(hide yes)
 			)
 		)
+		(property "Assemble" "1"
+			(at 36.83 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "532337f7-07c5-4378-ae7b-44c41f9c5d70")
 		)
@@ -3776,6 +3839,15 @@
 			)
 		)
 		(property "Element14" "-"
+			(at 115.57 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Assemble" "1"
 			(at 115.57 41.91 0)
 			(effects
 				(font
@@ -3887,6 +3959,15 @@
 			)
 		)
 		(property "Element14" "-"
+			(at 54.61 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Assemble" "1"
 			(at 54.61 41.91 0)
 			(effects
 				(font

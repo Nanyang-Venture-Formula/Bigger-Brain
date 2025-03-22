@@ -1,0 +1,16 @@
+site_name: Bigger Brain
+site_url: https://mydomain.org/mysite
+theme:
+  name: material
+  features:
+    - content.tabs.link
+
+markdown_extensions:
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+
+nav:
+  - Home: README.md
+  - Schematics: schematics/
+  - Interactive BOM: ibom/ibom.html

@@ -13,4 +13,5 @@ markdown_extensions:
 nav:
   - Home: README.md
   - Schematics: schematics/
+  - Assembly: assembly/
   - Interactive BOM: ibom/ibom.html
